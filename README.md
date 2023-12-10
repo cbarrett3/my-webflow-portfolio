@@ -1,15 +1,19 @@
-***Webflow:***
+# My Webflow Portfolio
 
-* https://preview.webflow.com/preview/connor-freelance-portfolio-23-24?utm_medium=preview_link&utm_source=dashboard&utm_content=connor-freelance-portfolio-23-24&preview=db22b4165967bb4708214909a28d8b30&workflow=preview
+I built this mostly in a combined effort to update my digital portfolio but also to learn webflow as another option for spinning up websites quickly.
 
-***Formspree:*** 
+#### Webflow 
+<i>design and code generation</i>
+- https://preview.webflow.com/preview/connor-freelance-portfolio-23-24?utm_medium=preview_link&utm_source=dashboard&utm_content=connor-freelance-portfolio-23-24&preview=db22b4165967bb4708214909a28d8b30&workflow=preview
 
-* https://formspree.io/forms/mnqklnog/submissions
+#### Formspree
+<i>free email forms api</i>
+- https://formspree.io/forms/mnqklnog/submissions
 
-***Google Domain:***
+#### Google Domains
+<i>personalized domain</i>
+- https://domains.google.com/registrar/connorbarrett.dev
 
-* https://domains.google.com/registrar/connorbarrett.dev
-
-***GitHub Pages (Hosting):***
-
-* https://github.com/cbarrett3/my-webflow-portfolio/settings/pages
+#### GitHub Pages
+<i>free static site hosting</i>
+- https://github.com/cbarrett3/my-webflow-portfolio/
