@@ -13,3 +13,7 @@ I built this mostly in a combined effort to update my digital portfolio but also
 #### Google Domains
 <i>personalized domain</i>
 - https://domains.google.com/registrar/connorbarrett.dev
+
+- #### GitHub Pages
+<i>free static site hosting</i>
+- https://connorbarrett.dev
