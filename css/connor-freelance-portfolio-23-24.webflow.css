@@ -3886,6 +3886,51 @@ nav.navigation,
   position: static;
 }
 
+/* Coming Soon Overlay Styles */
+.foodtruckies-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.coming-soon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.coming-soon-text {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .foodtruckies-text-button {
   color: var(--foodtruckies-orange);
   text-decoration: none;
@@ -3905,6 +3950,16 @@ nav.navigation,
 
 .foodtruckies-button-visit-site:hover {
   color: var(--foodtruckies-orange-light);
+}
+
+.coming-soon-button {
+  opacity: 0.6;
+  cursor: default;
+  pointer-events: none;
+}
+
+.coming-soon-button .foodtruckies-button-visit-site {
+  color: var(--neutral-400);
 }
 
 .tech-stack-details {
