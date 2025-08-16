@@ -4745,7 +4745,6 @@ nav.navigation,
     object-fit: cover;
     object-position: center;
   }
-  }
 
   .about-image-right {
     display: none;
@@ -4849,6 +4848,10 @@ nav.navigation,
   }
 }
 
+@media screen and (max-width: 479px) {
+  /* Additional mobile styles */
+}
+
 /* Grid area assignments for responsive layout */
 .w-layout-grid [id*="w-node-"] {
   grid-area: span 1 / span 1 / span 1 / span 1;
@@ -4872,7 +4875,8 @@ nav.navigation,
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_0da3cbba-b7a8-85f4-0ca3-3e9bbb8020ba-07b22f1d, #w-node-_4d566f2b-5bdf-4756-4d81-cfbd772e009f-07b22f1d, #w-node-_238026d6-adc6-abe3-7003-eb4d8560da27-07b22f1d, #w-node-b1cbdff4-2dfb-1ca6-fdf1-043dbe60a675-07b22f1d, #w-node-_2e68c277-33fd-e93f-977f-af5bef6db371-07b22f1d, #w-node-_236daf07-be88-6e05-fc66-4dcd5768b76d-5768b76b {
+  /* Grid area assignments for 479px breakpoint */
+  .w-layout-grid [id*="w-node-"] {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
